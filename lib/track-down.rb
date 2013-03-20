@@ -11,7 +11,7 @@ module TrackDown
     class V1 < Grape::API
       default_format :json
       format :json
-      version "v1", using: :header, vendor: "track-down", strict: true
+      version "v1", using: :header, vendor: "track-down"#, strict: true
 
       desc "Track down an IP."
       get ":ip", requirements: { ip: /\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}/ } do
