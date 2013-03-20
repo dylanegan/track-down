@@ -24,6 +24,8 @@ GEM
     minitest (4.7.0)
     multi_json (1.7.1)
     multi_xml (0.5.3)
+    puma (1.6.3)
+      rack (~> 1.2)
     rack (1.5.2)
     rack-accept (0.4.5)
       rack (>= 0.4)
@@ -42,4 +44,5 @@ DEPENDENCIES
   geoip
   grape
   minitest
+  puma
   rack-test
