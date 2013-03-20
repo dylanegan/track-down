@@ -1,1 +1,1 @@
-web: rackup -s puma
+web: rackup -p $PORT -s puma
